@@ -1,0 +1,22 @@
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/courses
+    username: root
+  #    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  application:
+    name: security-service
+#logging:
+#  file:
+#    name: C://Users//HS//Downloads//ThayBinh//security//services.log
+#  level:
+#    root: DEBUG
+
+server:
+  port: 8080
